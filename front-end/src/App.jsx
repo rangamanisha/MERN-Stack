@@ -20,11 +20,11 @@ import Layout from './Layout';
       },
       {
         path: '/articles',
-        element: <ArticlePage/>
+        element: <ArticleListPage/>
       },
       {
-        path: '/articles/:name', // /artciles/ : we can see the value 
-        element: <ArticleListPage/>
+        path: '/articles/:name', /* : we can see the value */
+        element: <ArticlePage/>
       }
     ]
   }]
