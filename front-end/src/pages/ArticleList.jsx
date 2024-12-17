@@ -1,5 +1,15 @@
-export default function ArticleListPage() {
+import {Link} from 'react-router-dom'
+export default function ArticleList({articles}){
     return(
-        <h1>This is the Article List Page!</h1>
-    );
+        <>
+         {articles.map(a => (
+            <Link key ={a.name} to={'/articles/' + a.name}>
+                <h3>{a.title}</h3>
+                <p>{a.content[0].substring(0, 150)}</p>
+            </Link>
+            
+        ))}
+        </>
+    )
+
 }

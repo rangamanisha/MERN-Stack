@@ -3,7 +3,7 @@ import './App.css'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage';
 import ArticlePage from './pages/ArticlePage';
-import ArticleListPage from './pages/ArticleList';
+import ArticleListPage from './pages/ArticleListPage';
 import { Children } from 'react';
 import Layout from './Layout';
 
